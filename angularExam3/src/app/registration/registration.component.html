@@ -1,0 +1,10 @@
+<p>
+  registration works!
+</p>
+<form name="RegiForm">
+	<input type="text" name="uname" placeholder="Enter your name" [(ngModel)] = "regs.username">
+	<input type="text" name="pswd" placeholder="Enter your password" [(ngModel)] = "regs.password">
+	<input type="text" name="location" placeholder="Enter your location" [(ngModel)] = "regs.location">
+
+	<input type="button" class= "btn btn-primary" value = "submit" (click)="SaveDataFn()">
+</form>

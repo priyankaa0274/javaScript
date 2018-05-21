@@ -1,0 +1,5 @@
+<form name="LoginForm">
+	<input type="text" name="uname" placeholder = "Enter username" [(ngModel)] = "creds.username">
+	<input type="text" name="pswd" placeholder = "Enter password" [(ngModel)] = "creds.password">
+	<input type="button" class="btn btn-primary" value = "sign" (click)="signFn()">
+</form>
